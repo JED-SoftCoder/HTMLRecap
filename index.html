@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment</title>
+</head>
+<body>
+    <h1 style="text-align: center;">The Great Hot Dog Debate</h1>
+    <hr/>
+    <h2 style="text-align: center;">What types are there?</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IEZoJtbto9c" frameborder="0" allowfullscreen></iframe>
+<div style="border: gold 2px solid;padding: .75rem;">
+    <nav style="text-align: center;">
+        <a href="../HTMLRecap/assets/classic-coney-island-hot-dogs-0410.jpg">Coney Island Dog</a>
+        <a href="../HTMLRecap/assets/Chicago-Dog.jpg">Chicago Dog</a>
+        <a href="../HTMLRecap/assets/cincinnati-cheese-dog.jpg">Cincinnati Cheese Dog</a>
+        <a href="../HTMLRecap/assets/new-jersey-dog.jpg">New Jersey Dog</a>
+        <a href="../HTMLRecap/assets/WVA-slaw-dog-with-chili.jpg.crdownload">West Virginia Slaw Dog</a>
+    </nav>
+    <h3 style="text-align: center;">First, tell us a little about yourself!</h3>
+    <form>
+        <fieldset>
+            <p>
+                <label>
+                    Quiz-Taker's Name
+                    <input name="name">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Telephone
+                    <input type="tel" name="tel">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Email Address
+                    <input type="email" name="email">
+                </label>
+            </p>
+        </fieldset>
+    </form>
+</div>
+<br/>
+<div style="border: red 2px solid;padding: .75rem;">
+    <h3 style="text-align: center;">Now, tell us, whats the best hot dog?</h3>
+    <form>
+        <fieldset>
+            <legend>Hot Dog Types (Choose One)</legend>
+            <p>
+                <input type="checkbox" name="types"
+                    id="island" value="island" />
+                    <label for="island">Coney Island Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="types"
+                    id="chicago" value="chicago" />
+                    <label for="chicago">Chicago Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="types"
+                    id="cheese" value="cheese" />
+                    <label for="cheese">Cincinnati Cheese Coney</label>
+            </p>
+            <p>
+                <input type="checkbox" name="types"
+                    id="jersey" value="jersey" />
+                    <label for="jersey">New Jersey Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="types"
+                    id="slaw" value="slaw" />
+                    <label for="slaw">West Virginia Slaw Dog</label>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
+</div>    
+</body>
+</html>
